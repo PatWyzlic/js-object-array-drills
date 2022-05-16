@@ -51,6 +51,10 @@ const album3 = {
 // 3. Access album2's formats array and use an array method to add "LP" to
 //    album3's formats
 // Check out the Array.push method!
+let foundLP = album2.albumDetails.formats[0];
+album3.albumDetails.formats.push(foundLP);
+console.log(album3.albumDetails.formats);
+
 
 // 4. Change the release date of album3 from a string into a Date object
 // Look ahead to album4 for a clue!
